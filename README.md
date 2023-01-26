@@ -42,7 +42,7 @@ In each of the files, every row contains data pertaining to a particular Hilbert
   * `label` is the label of the surface;
   * `component-label` is the [LMFDB label](https://www.lmfdb.org/knowledge/show/nf.ideal_labels) of the component $\mathfrak{b}$;
   * `M-label` is the [LMFDB label](https://www.lmfdb.org/knowledge/show/nf.ideal_labels) of the ideal $\mathfrak{M}$ associated to the cusp; see equation 3.1.2 in the section Cusps;
-  * `[[a1,a2],[b1,b2]]` indicate the coordinates of the cusps $(a_1 : a_2)$, $(b_1 : b_2)$ as points in $\mathbb{P}^1(F)$;
+  * `[[a1,a2],[b1,b2]]` indicate the coordinates of the cusp $(a_1 + a_2 w : b_1 + b_2 w)$ as points in $\mathbb{P}^1(F)$, where $F = \mathbb{Q}(w)$;
   * `bs` gives the periodic part of the associated Hirzebruch-Jung continued fraction; equivalently, the self-intersection numbers of the curves in the resolution of the cusp; and
   * `v` is the number of times `bs` must be repeated to cover every curve in the resolution
 
