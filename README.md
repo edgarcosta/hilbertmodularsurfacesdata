@@ -38,7 +38,7 @@ In a given file, each row contains data pertaining to a particular Hilbert modul
   * `label` is the label of the surface; and
   * `ks` are the possible values of the Kodaira dimension $\kappa$ of the surface.
 
-* Files with names ending in `cusps.txt` contain data about the cusps on the surfaces. Each row is contains data on one cusp and is of the form `label:component-label:M-label:[[a1,a2],[b1,b2]]:bs:v`, where
+* Files with names ending in `cusps.txt` contain data about the cusps on the surfaces. Each row contains data on one cusp and is of the form `label:component-label:M-label:[[a1,a2],[b1,b2]]:bs:v`, where
   * `label` is the label of the surface;
   * `component-label` is the [LMFDB label](https://www.lmfdb.org/knowledge/show/nf.ideal_labels) of the ideal $\mathfrak{b}$ specifying a component of the surface;
   * `M-label` is the [LMFDB label](https://www.lmfdb.org/knowledge/show/nf.ideal_labels) of the ideal $\mathfrak{M}$ associated to the cusp; see equation 3.1.2 in the section Cusps;
