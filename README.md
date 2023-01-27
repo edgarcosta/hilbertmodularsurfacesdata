@@ -47,7 +47,7 @@ In a given file, each row contains data pertaining to a particular Hilbert modul
   * `bs` gives the periodic part of the associated Hirzebruch-Jung continued fraction; equivalently, the self-intersection numbers of the curves in the resolution of the cusp; and
   * `v` is the number of times `bs` must be repeated to cover every curve in the resolution.
 
-* Files with names ending in `hs.txt` contain data about the Hilbert series of each surface. Here Hilbert series are represented as rational functions in `x`. Each row is of the form `label:numb:den`, where
+* Files with names ending in `hs.txt` contain data about the Hilbert series of each surface. Here Hilbert series are represented as rational functions in `x`. Each row is of the form `label:num:den`, where
   * `label` is the label of the surface;
   * `num` is the numerator of the Hilbert series; and
   * `den` is the denominator of the Hilbert series.
