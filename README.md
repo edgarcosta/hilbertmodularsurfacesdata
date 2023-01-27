@@ -20,9 +20,10 @@ The data was computed with the Magma package [hilbertmodularforms](https://githu
 
 ## Labels
 
-In a given file, each row contains data pertaining to a particular Hilbert modular surface. The first entry in each such row is a label identifying the surface. The label is of the form `field-label:level-label:ambient-type:gamma-type`where
+In a given file, each row contains data pertaining to a particular Hilbert modular surface. The first entry in each such row is a label identifying the surface. The label is of the form `field_label-level_label-component_label-ambient_type-gamma_type`where
 * `field-label` is the [LMFDB label](https://www.lmfdb.org/knowledge/show/nf.label) of the real quadratic field $F$ associated to the surface;
 * `level-label` is the [LMFDB label](https://www.lmfdb.org/knowledge/show/nf.ideal_labels) of the level $\mathfrak{N}$;
+*  `component-label` is the [LMFDB label](https://www.lmfdb.org/knowledge/show/nf.ideal_labels) of the ideal $\mathfrak{b}$ specifying a component of the surface;
 * `ambient-type` is either `gl` or `sl` depending on whether the associated Hilbert modular group is defined as a subset of $\operatorname{GL}_2^+(F)$ or $\operatorname{SL}_2(F)$
 * `gamma-type` is either `0`, `1`, or `f` according as the Hilbert modular group is $\Gamma_0(\mathfrak{N})$, $\Gamma_1(\mathfrak{N})$, or $\Gamma(\mathfrak{N})$ (or the $\operatorname{SL}$ variants of these).
 
