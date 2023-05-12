@@ -24,8 +24,8 @@ In a given file, each row contains data pertaining to a particular Hilbert modul
 * `field_label` is the [LMFDB label](https://www.lmfdb.org/knowledge/show/nf.label) of the real quadratic field $F$ associated to the surface;
 * `level_label` is the [LMFDB label](https://www.lmfdb.org/knowledge/show/nf.ideal_labels) of the level $\mathfrak{N}$;
 *  `component_label` is the [LMFDB label](https://www.lmfdb.org/knowledge/show/nf.ideal_labels) of the ideal $\mathfrak{b}$ specifying a component of the surface;
-* `ambient_type` is either `gl` or `sl` depending on whether the associated Hilbert modular group is defined as a subset of $\operatorname{GL}_2^+(F)$ or $\operatorname{SL}_2(F)$
-* `gamma_type` is either `0`, `1`, or `f` according as the Hilbert modular group is $\Gamma_0(\mathfrak{N})$, $\Gamma_1(\mathfrak{N})$, or $\Gamma(\mathfrak{N})$ (or the $\operatorname{SL}$ variants of these).
+* `ambient_type` is either `gl` or `sl` depending on whether the associated Hilbert modular group is defined as a subset of $\mathrm{GL}_2^+(F)$ or $\mathrm{SL}_2(F)$
+* `gamma_type` is either `0`, `1`, or `f` according as the Hilbert modular group is $\Gamma_0(\mathfrak{N})$, $\Gamma_1(\mathfrak{N})$, or $\Gamma(\mathfrak{N})$ (or the $\mathrm{SL}$ variants of these).
 
 ## File formats
 
