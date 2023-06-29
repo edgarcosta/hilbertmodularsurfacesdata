@@ -16,7 +16,7 @@ Repository for the data associated to
 [Sam Schiavone](https://math.mit.edu/~sschiavo/), and
 [John Voight](http://www.math.dartmouth.edu/~jvoight/)
 
-The data was computed with the Magma package [hilbertmodularforms](https://github.com/edgarcosta/hilbertmodularforms/)
+The data was computed with the Magma package [hilbertmodularforms](https://github.com/edgarcosta/hilbertmodularforms/). Precisely in Magma 2.28-2 and with the package version [9e65ff9](https://github.com/edgarcosta/hilbertmodularforms/tree/9e65ff9bcb6d82dea4b1acfec731b88c440c2504).
 
 ## Labels
 
